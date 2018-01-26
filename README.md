@@ -1,7 +1,11 @@
 # @busy-web/graylog
 
-This README outlines the details of collaborating on this Ember addon.
+Ember addon for sending app data to graylog endpoints
 
 ## Installation
 
 ```ember install @busy-web/graylog```
+
+## Setup
+
+

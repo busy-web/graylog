@@ -1,7 +1,7 @@
 {
   "name": "@busy-web/graylog",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember addon for sending app data to graylog endpoints",
   "keywords": [
     "ember-addon",
     "busy-web"

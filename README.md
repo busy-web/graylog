@@ -11,18 +11,20 @@ Ember addon for sending app data to graylog endpoints
 Add a graylog config to `config/environment.js` with the following code.
 
 ```javascript
-graylog: {
-	api_url: '<API_URL_HERE>',				// api url
-	api_port: '<API_PORT_NUMBER_HERE>',		// api port number
-	enable_extras: false,					// set this to true will enable platform, model, os_version, and manufacturer to send an all calls.
-	version: '1.1',							// graylog version number
-	level: 1,								// graylog log level
+let ENV = {
+	graylog: {
+		api_url: '<API_URL_HERE>',				// api url
+		api_port: '<API_PORT_NUMBER_HERE>',		// api port number
+		enable_extras: false,					// set this to true will enable platform, model, os_version, and manufacturer to send an all calls.
+		version: '1.1',							// graylog version number
+		level: 1,								// graylog log level
 
-	/*
-	defaults: { // optional default values to send on all calls.
-		// key: value,
+		/*
+		defaults: { // optional default values to send on all calls.
+			// key: value,
+		}
+		*/
 	}
-	*/
 }
 ```
 

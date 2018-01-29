@@ -8,8 +8,9 @@ Ember addon for sending app data to graylog endpoints
 
 ## Setup
 
-add a graylog config to `config/environment.js`:
-```
+Add a graylog config to `config/environment.js` with the following code.
+
+```javascript
 graylog: {
 	api_url: '<API_URL_HERE>',				// api url
 	api_port: '<API_PORT_NUMBER_HERE>',		// api port number
@@ -29,7 +30,7 @@ graylog: {
 
 Use graylog by adding the service to your Routes or Controllers
 
-```
+```javascript
 import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
 
